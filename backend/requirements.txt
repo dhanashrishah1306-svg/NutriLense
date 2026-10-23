@@ -1,0 +1,11 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+python-multipart>=0.0.9
+pydantic>=2.8,<3.0
+Pillow>=10.0
+httpx>=0.27
+pytest>=8.0
+# Optional ML dependencies (install separately if PyTorch wheel needs a platform-specific command):
+# torch>=2.2
+# torchvision>=0.17
+# easyocr>=1.7
